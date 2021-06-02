@@ -138,6 +138,11 @@ h1, h2, h3, p, img {
   margin-right: 200px;
 }
 
+.videos {
+  display: flex;
+  justify-content: space-between;
+}
+
 .nutricion {
   color: #ffd166;
 }

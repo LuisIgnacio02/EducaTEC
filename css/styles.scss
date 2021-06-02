@@ -1,178 +1,183 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;900&family=Ubuntu:wght@500;700&display=swap');
 
 * {
-  padding: 0;
-  margin: 0;
-  font-family: Poppins, Ubuntu, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-family: Poppins, Ubuntu, sans-serif;
 }
 
 body {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 label {
-  width: 215px;
-  display: inline-block;
+    width: 215px;
+    display: inline-block;
 }
 
 input {
-  margin-bottom: .5rem;
-  margin-left: 1rem;
+    margin-bottom: .5rem;
+    margin-left: 1rem;
 }
 
 .nomargin {
-  margin-left: 0;
+    margin-left: 0;
 }
 
 #nutricion {
-  margin-left: 5rem;
-  border: 3rem solid hsl(42,100%,70%);
-  background: hsl(42, 81%, 90%);
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
+    margin-left: 5rem;
+    border: 3rem solid hsl(42,100%,70%);
+    background: hsl(42, 81%, 90%);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
 }
 
 #imc {
-  margin-left: 5rem;
-  border: 3rem solid hsl(323, 70%, 70%);
-  background: hsl(323, 71%, 88%);
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  height: 78vh;
+    margin-left: 5rem;
+    border: 3rem solid hsl(323, 70%, 70%);
+    background: hsl(323, 71%, 88%);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    height: 78vh;
 }
 
 #fisica {
-  margin-left: 5rem;
-  border: 3rem solid hsl(121, 100%, 70%);
-  background: hsl(120, 100%, 86%);
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
+    margin-left: 5rem;
+    border: 3rem solid hsl(121, 100%, 70%);
+    background: hsl(120, 100%, 86%);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
 }
 
 #bucal {
-  margin-left: 5rem;
-  border: 3rem solid hsl(184, 79%, 62%);
-  background: 	hsl(184, 100%, 83%);
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
+    margin-left: 5rem;
+    border: 3rem solid hsl(184, 79%, 62%);
+    background: 	hsl(184, 100%, 83%);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
 }
 
 main iframe {
-  align-self: center;
-  margin-bottom: 2rem;
+    align-self: center;
+    margin-bottom: 2rem;
 }
 
 h1, h2, h3, p, img {
-  margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 .list {
-  margin-left: 50px;
+    margin-left: 50px;
 }
 
 .navbar {
-  width: 5rem;
-  height: 100vh;
-  position: fixed;
-  transition: width 200ms ease;
-  background-color: hsl(200, 38%, 33%);
+    width: 5rem;
+    height: 100vh;
+    position: fixed;
+    transition: width 200ms ease;
+    background-color: hsl(200, 38%, 33%);
 }
 
 .navbar-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .navbar-item {
-  width: 100%;
+    width: 100%;
 }
 
 .navbar-link {
-  display: flex;
-  align-items: center;
-  height: 5rem;
-  text-decoration: none;
-  transition: 1s;
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    text-decoration: none;
+    transition: 1s;
 }
 
 .link-text {
-  display: none;
-  margin-left: 1rem;
-  font-size: 2rem;
+    display: none;
+    margin-left: 1rem;
+    font-size: 2rem;
 }
 
 .navbar-link .icon {
-  min-width: 2rem;
-  margin: 0 1.5rem;
+    min-width: 2rem;
+    margin: 0 1.5rem;
 }
 
 .navbar:hover {
-  width: 25rem;
+    width: 25rem;
 }
 
 .navbar:hover .link-text {
-  display: block;
+    display: block;
 }
 
 .icon {
-  font-size: 2rem;
+    font-size: 2rem;
 }
 
 .inicio {
-  color: white;
+    color: white;
 }
 
 .calc {
-  display: inline-flex;
+    display: inline-flex;
 }
 
 .hombre {
-  margin-right: 200px;
+    margin-right: 200px;
+}
+
+.videos {
+    display: flex;
+    justify-content: space-between;
 }
 
 .nutricion {
-  color: hsl(42, 100%, 70%);
+    color: hsl(42, 100%, 70%);
 }
 
 .fisica {
-  color: hsl(121, 100%, 70%);
+    color: hsl(121, 100%, 70%);
 }
 
 .bucal {
-  color: hsl(182, 100%, 70%);
+    color: hsl(182, 100%, 70%);
 }
 
 .dormir {
-  color: hsl(222, 100%, 70%);
+    color: hsl(222, 100%, 70%);
 }
 
 .mental {
-  color: hsl(274, 100%, 70%);
+    color: hsl(274, 100%, 70%);
 }
 
 .imc {
-  color: hsl(333, 100%, 70%);
+    color: hsl(333, 100%, 70%);
 }
 
 #kids {
-  width: 1000px;
-  height: auto;
+    width: 1000px;
+    height: auto;
 }
 
 #logo {
-  width: 200px;
-  height: auto;
+    width: 200px;
+    height: auto;
 }
 
 #cover {
-  background: url("../assets/cover.png");
+    background: url("../assets/cover.png");
 }

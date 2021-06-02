@@ -43,6 +43,26 @@ input {
   height: 78vh;
 }
 
+#fisica {
+  margin-left: 5rem;
+  border: 3rem solid #66ff69;
+  background: #b8ffb8;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  height: 78vh;
+}
+
+#bucal {
+  margin-left: 5rem;
+  border: 3rem solid #52e0eb;
+  background: #a8f9ff;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  height: 78vh;
+}
+
 main img {
   width: 600px;
   height: auto;

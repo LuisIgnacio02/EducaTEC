@@ -70,6 +70,11 @@ h1, h2, h3, p, img {
   margin-bottom: 1rem;
 }
 
+img {
+  width: 190px;
+  height: 120px;
+}
+
 .list {
   margin-left: 50px;
 }
@@ -141,6 +146,19 @@ h1, h2, h3, p, img {
 .videos {
   display: flex;
   justify-content: space-between;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.invisible {
+  width: 190px;
+  height: 0;
 }
 
 .nutricion {

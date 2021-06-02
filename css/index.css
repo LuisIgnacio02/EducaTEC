@@ -12,8 +12,8 @@ body {
 
 main {
   margin-left: 5rem;
-  border: 3rem solid #FFD166;
-  background: #FAEDCF;
+  border: 3rem solid #ffd166;
+  background: #faeed1;
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -30,7 +30,7 @@ main img {
   height: 100vh;
   position: fixed;
   transition: width 200ms ease;
-  background-color: #356075;
+  background-color: #345f74;
 }
 
 .navbar-list {
@@ -82,27 +82,27 @@ main img {
 }
 
 .nutricion {
-  color: #FFD166;
+  color: #ffd166;
 }
 
 .fisica {
-  color: #66FF68;
+  color: #66ff69;
 }
 
 .bucal {
-  color: #66FAFF;
+  color: #66faff;
 }
 
 .dormir {
-  color: #6695FF;
+  color: #6694ff;
 }
 
 .mental {
-  color: #BC66FF;
+  color: #bd66ff;
 }
 
 .imc {
-  color: #FF66AB;
+  color: #ff66ab;
 }
 
 #kids {

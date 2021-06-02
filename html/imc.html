@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>EducaTEC - IMC</title>
+        <script src="../js/main.js"></script>
+        <link rel="stylesheet" type="text/css" href="../css/styles.css">
+        <script src="https://kit.fontawesome.com/788565dc21.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <a class="navbar-link inicio" href="../index.html">
+                        <i class="fas fa-home icon"></i>
+                        <span class="link-text">Inicio</span>
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-link nutricion" href="nutricion.html">
+                        <i class="fas fa-utensils icon"></i>
+                        <span class="link-text">Nutrición</span>
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-link fisica" href="#">
+                        <i class="fas fa-basketball-ball icon"></i>
+                        <span class="link-text">Actividad física</span>
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-link bucal" href="#">
+                        <i class="fas fa-tooth icon"></i>
+                        <span class="link-text">Salud bucal</span>
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-link dormir" href="#">
+                        <i class="fas fa-moon icon"></i>
+                        <span class="link-text">Higiene del sueño</span>
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-link mental" href="#">
+                        <i class="fas fa-brain icon"></i>
+                        <span class="link-text">Salud mental</span>
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-link imc" href="#">
+                        <i class="fas fa-weight icon"></i>
+                        <span class="link-text">Calcula el IMC</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <main id="imc">
+            <h1>Calculadora de IMC</h1>
+            <p>
+                El índice de masa corporal, o IMC, es la relación entre el peso y la altura. En esta sección podrá
+                conocer si el IMC de su hijo es el adecuado, de acuerdo con los Centros de Control y Prevención de
+                Enfermedades (CDC). Esta calculadora funciona solamente para niños y niñas
+                de entre 4 y 7 años; próximamente se irán agregando más edades.
+            </p>
+            <div class="calc">
+                <div class="hombre">
+                    <h2>Niños</h2>
+                    <form>
+                        <label for="weighth">Peso en kilogramos:</label><input type="float" id="weighth"/>
+                        <br/>
+                        <label for="heighth">Altura en centímetros:</label><input type="float" id="heighth"/>
+                        <br/>
+                        <label for="ageh">Edad:</label><input type="float" id="ageh"/>
+                        <br/>
+                        <input type="button" onclick="bmih()" value="Calcular" class="nomargin"/>
+                        <br/>
+                        <label for="ansh">Índice de masa corporal:</label><input id="ansh" type="text"/>
+                        <br/>
+                        <label for="categoryh">Categoría:</label><input type="text" id="categoryh" readonly/>
+                        <br/>
+                        <input type="reset" value="Reiniciar" class="nomargin"/>
+                    </form>
+                </div>
+                <div>
+                    <h2>Niñas</h2>
+                    <form>
+                        <label for="weightm">Peso en kilogramos:</label><input type="float" id="weightm"/>
+                        <br/>
+                        <label for="heightm">Altura en centímetros:</label><input type="float" id="heightm"/>
+                        <br/>
+                        <label for="agem">Edad:</label><input type="float" id="agem"/>
+                        <br/>
+                        <input type="button" onclick="bmim()" value="Calcular" class="nomargin"/>
+                        <br/>
+                        <label for="ansm">Índice de masa corporal:</label><input id="ansm" type="text"/>
+                        <br/>
+                        <label for="categorym">Categoría:</label><input type="text" id="categorym" readonly/>
+                        <br/>
+                        <input type="reset" value="Reiniciar" class="nomargin"/>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

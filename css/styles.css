@@ -10,7 +10,21 @@ body {
   padding: 0;
 }
 
-main {
+label {
+  width: 215px;
+  display: inline-block;
+}
+
+input {
+  margin-bottom: 0.5rem;
+  margin-left: 1rem;
+}
+
+.nomargin {
+  margin-left: 0;
+}
+
+#nutricion {
   margin-left: 5rem;
   border: 3rem solid #ffd166;
   background: #faeed1;
@@ -19,10 +33,24 @@ main {
   flex-direction: column;
 }
 
+#imc {
+  margin-left: 5rem;
+  border: 3rem solid #e87dbf;
+  background: #f6cbe5;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  height: 78vh;
+}
+
 main img {
   width: 600px;
   height: auto;
   align-self: center;
+}
+
+h1, p, img {
+  margin-bottom: 1rem;
 }
 
 .navbar {
@@ -81,6 +109,14 @@ main img {
   color: white;
 }
 
+.calc {
+  display: inline-flex;
+}
+
+.hombre {
+  margin-right: 200px;
+}
+
 .nutricion {
   color: #ffd166;
 }
@@ -119,4 +155,4 @@ main img {
   background: url("../assets/cover.png");
 }
 
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=styles.css.map */

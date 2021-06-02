@@ -51,7 +51,6 @@ input {
   padding: 2rem;
   display: flex;
   flex-direction: column;
-  height: 78vh;
 }
 
 #bucal {
@@ -61,17 +60,19 @@ input {
   padding: 2rem;
   display: flex;
   flex-direction: column;
-  height: 78vh;
 }
 
-main img {
-  width: 600px;
-  height: auto;
+main iframe {
   align-self: center;
+  margin-bottom: 2rem;
 }
 
-h1, p, img {
+h1, h2, h3, p, img {
   margin-bottom: 1rem;
+}
+
+.list {
+  margin-left: 50px;
 }
 
 .navbar {
